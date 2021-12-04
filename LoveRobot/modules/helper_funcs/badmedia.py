@@ -1,4 +1,4 @@
-from TGNRobot import telethn as tbot
+from LoveRobot import telethn as tbot
 import requests
 import time
 
