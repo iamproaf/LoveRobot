@@ -1,6 +1,6 @@
 import random, html
 
-from TGNRobot import dispatcher
+from LoveRobot import dispatcher
 from TGNRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
