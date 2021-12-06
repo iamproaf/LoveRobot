@@ -214,7 +214,7 @@ telethn = TelegramClient("zaid", API_ID, API_HASH)
 aiohttpsession = ClientSession()
 # ARQ Client
 print("[INFO]: INITIALIZING ARQ CLIENT")
-arq = ARQ("https://thearq.tech", "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ", aiohttpsession)
+arq = ARQ("https://thearq.tech", "QBKRLI-BFCLWO-GSEHJT-XDLZVM-ARQ", aiohttpsession)
 pbot = Client("robot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
