@@ -1,12 +1,12 @@
 import random, html
 
 from LoveRobot import dispatcher
-from TGNRobot.modules.disable import (
+from LoveRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from TGNRobot.modules.sql import afk_sql as sql
-from TGNRobot.modules.users import get_user_id
+from LoveRobot.modules.sql import afk_sql as sql
+from LoveRobot.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
