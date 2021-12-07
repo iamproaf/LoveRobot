@@ -11,9 +11,9 @@ from io import BytesIO
 from requests import get
 from telethon.tl.types import InputMessagesFilterPhotos
 
-from LoveRobot import OWNER_ID, SUPPORT_CHAT
-from LoveRobot.events import register
-from LoveRobot import telethn
+from FlorinaRobot import OWNER_ID, SUPPORT_CHAT
+from FlorinaRobot.events import register
+from FlorinaRobot import telethn
 from PIL import Image, ImageDraw, ImageFont
 
 
@@ -268,7 +268,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "black"
     shadowcolor = "blue"
-    fnt = glob.glob("./LoveRobot/utils/Logo/*")
+    fnt = glob.glob("./FlorinaRobot/utils/Logo/*")
     randf = random.choice(fnt)
     font = ImageFont.truetype(randf, 120)
     w, h = draw.textsize(text, font=font)
